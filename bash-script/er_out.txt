@@ -1,0 +1,2 @@
+ls: unknown option -- e
+Try 'ls --help' for more information.

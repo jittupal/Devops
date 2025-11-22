@@ -1,0 +1,6 @@
+curl
+tree
+htop
+vim
+github
+wget
