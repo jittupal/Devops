@@ -10,7 +10,7 @@ def count_files_with_extension(directory, extension):
     
     return file_count
         
-count = count_files_with_extension("D:/devops/bash and python scripting/count_files/test1", "txt")
+count = count_files_with_extension("count_files/test1", "txt")
 
 print(f"The number of files is {count}")
 
