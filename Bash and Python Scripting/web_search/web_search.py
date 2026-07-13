@@ -9,11 +9,10 @@ def google_search(query):
     url = f"https://www.google.com/search?q={encoded_query}"
     
     webbrowser.open(url)
+ 
     
 if len(sys.argv) > 1:
     search_item = ' '.join(sys.argv[1:])
     google_search(search_item)
 else:
-    print("Please provide a search item")
-    
-    
+    print("Please provide a search query")

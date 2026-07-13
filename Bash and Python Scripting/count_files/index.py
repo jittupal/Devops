@@ -12,5 +12,4 @@ def count_files_with_extension(directory, extension):
         
 count = count_files_with_extension("count_files/test1", "txt")
 
-print(f"The number of files is {count}")
-
+print(f"The number of files is {count} in the directory and sub-folder")
